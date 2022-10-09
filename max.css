@@ -1,0 +1,145 @@
+
+* { margin: 0 ;
+padding: 0;
+font-family: 'Poppins', sans-serif;}
+
+.container {width: 1200px;
+margin-inline: auto ;}
+
+header {background-color: #313552;
+height: 100vh;
+clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 80%, 0 0);}
+
+
+nav { display: flex;
+justify-content: space-between;}
+
+
+#left-nav { display: flex;
+margin-top: 20px;
+align-items: center;}
+
+#contact {
+    padding: 0.5rem 2rem;
+    font-weight: 700;
+    border: 3px solid #8b94db;
+    background-color:#2eb086;
+    outline: none;
+    color: #f0f0f0 ;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    
+}
+
+
+#contact:hover {
+    color: #2eb086;
+    background-color: #313552;
+    border: 3px solid  #2eb086;
+    transition: 0.5s;
+}
+
+.btn1 {
+    background-color: #2eb086;
+    color: #f0f0f0;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn1:hover {
+    color: #2eb086;
+    background-color: #313552;
+    border: 3px solid  #2eb086;
+    transition: 0.5s;
+    
+}
+
+#links a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px ;
+    text-transform: initial;
+    transition: 0.4s;
+     
+}
+
+
+#links a:hover {
+    color: #2eb086;
+}
+
+#hero {
+    margin-inline:auto;
+    display: flex ;
+    color: #f0f0f0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-right {
+    text-align: right;
+    width: 500px;
+}
+
+
+#hero-right h4 {
+ color: #b8405e;
+}
+
+#hero-right h1 {
+    color: #2eb086;
+}
+
+#hero-right span {
+    color: #f0f0f0;
+}
+
+#plotcards   {
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+
+.card {
+    border: 5px solid rgb(207, 78, 78);
+    background-color: #313552;
+    color: #f0f0f0;
+    padding: 10px ;
+    margin: 20px;
+    width: 200 px;
+    height: 150px;
+    border-radius: 30px;
+    transition: 0.4s;
+    
+
+}
+
+.card:hover {
+    background-color: #2eb086;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.last-ctn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.me {
+    color: #b8405e;
+    
+    text-align: center;
+    width: 600px;
+}
+
+#photo h1 {
+    color: #2eb086;
+    text-transform: capitalize;
+}
+
